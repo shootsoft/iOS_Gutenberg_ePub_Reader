@@ -3,10 +3,10 @@ A ePub reader app with thousands of free books provided by https://www.gutenberg
 
 # Screenshots
 
-![Books Brower](./docs/impages/brower.png)
-![Download ePub Books](docs/impages/download_epub_books.png)
-![Local Library](docs/impages/library.png)
-![Reading ePub Books](docs/impages/reading_epub_books.png)
+![Books Brower](docs/images/browser.png)
+![Download ePub Books](docs/images/download_epub_books.png)
+![Local Library](docs/images/library.png)
+![Reading ePub Books](docs/images/reading_epub_books.png)
 
 # Development
 
