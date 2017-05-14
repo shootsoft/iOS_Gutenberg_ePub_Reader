@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C910BDDF9736E01B01830E7 /* Pods_Gutenberg_Reader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBBDE4740E578CF3A183165E /* Pods_Gutenberg_Reader.framework */; };
+		2D46F898D21EA9F52648B5E6 /* Pods_Gutenberg_ReaderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D84F324F6E9C46318ADA1D /* Pods_Gutenberg_ReaderUITests.framework */; };
+		717767D5C7C2CED8B4E48188 /* Pods_Gutenberg_ReaderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1295D8DB353661D7680B10FD /* Pods_Gutenberg_ReaderTests.framework */; };
+		F24D64081EC1D3A700AF069C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D64071EC1D3A700AF069C /* AppDelegate.swift */; };
+		F24D640A1EC1D3A700AF069C /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D64091EC1D3A700AF069C /* DiscoverViewController.swift */; };
+		F24D640C1EC1D3A700AF069C /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D640B1EC1D3A700AF069C /* LibraryViewController.swift */; };
+		F24D640F1EC1D3A700AF069C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24D640D1EC1D3A700AF069C /* Main.storyboard */; };
+		F24D64111EC1D3A700AF069C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24D64101EC1D3A700AF069C /* Assets.xcassets */; };
+		F24D64141EC1D3A700AF069C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F24D64121EC1D3A700AF069C /* LaunchScreen.storyboard */; };
+		F24D641F1EC1D3A700AF069C /* Gutenberg_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D641E1EC1D3A700AF069C /* Gutenberg_ReaderTests.swift */; };
+		F24D642A1EC1D3A700AF069C /* Gutenberg_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D64291EC1D3A700AF069C /* Gutenberg_ReaderUITests.swift */; };
+		F24D64391EC493B800AF069C /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D64381EC493B800AF069C /* DownloadManager.swift */; };
+		F24D643A1EC493B800AF069C /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D64381EC493B800AF069C /* DownloadManager.swift */; };
+		F24D643C1EC493DA00AF069C /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D643B1EC493DA00AF069C /* BaseManager.swift */; };
+		F24D643D1EC493DA00AF069C /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D643B1EC493DA00AF069C /* BaseManager.swift */; };
+		F24D643F1EC493F200AF069C /* LibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D643E1EC493F200AF069C /* LibraryManager.swift */; };
+		F24D64401EC493F200AF069C /* LibraryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24D643E1EC493F200AF069C /* LibraryManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F24D641B1EC1D3A700AF069C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24D63FC1EC1D3A700AF069C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24D64031EC1D3A700AF069C;
+			remoteInfo = "Gutenberg Reader";
+		};
+		F24D64261EC1D3A700AF069C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24D63FC1EC1D3A700AF069C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24D64031EC1D3A700AF069C;
+			remoteInfo = "Gutenberg Reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1295D8DB353661D7680B10FD /* Pods_Gutenberg_ReaderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gutenberg_ReaderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBFA39323644C9452CEF575 /* Pods-Gutenberg ReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gutenberg ReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gutenberg ReaderTests/Pods-Gutenberg ReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43B28B196ACAF1FD55112385 /* Pods-Gutenberg ReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gutenberg ReaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gutenberg ReaderUITests/Pods-Gutenberg ReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		46D84F324F6E9C46318ADA1D /* Pods_Gutenberg_ReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gutenberg_ReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7459A1D39371168C966C4D /* Pods-Gutenberg Reader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gutenberg Reader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gutenberg Reader/Pods-Gutenberg Reader.debug.xcconfig"; sourceTree = "<group>"; };
+		621B65A9E62E248E1E80F920 /* Pods-Gutenberg ReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gutenberg ReaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gutenberg ReaderUITests/Pods-Gutenberg ReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C657BCF6A04F5CE5D70BBF77 /* Pods-Gutenberg Reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gutenberg Reader.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gutenberg Reader/Pods-Gutenberg Reader.release.xcconfig"; sourceTree = "<group>"; };
+		E2DAAFF55F0CE35C458484D8 /* Pods-Gutenberg ReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gutenberg ReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gutenberg ReaderTests/Pods-Gutenberg ReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		F24D64041EC1D3A700AF069C /* Gutenberg Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gutenberg Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24D64071EC1D3A700AF069C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F24D64091EC1D3A700AF069C /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		F24D640B1EC1D3A700AF069C /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		F24D640E1EC1D3A700AF069C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F24D64101EC1D3A700AF069C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F24D64131EC1D3A700AF069C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F24D64151EC1D3A700AF069C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24D641A1EC1D3A700AF069C /* Gutenberg ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gutenberg ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24D641E1EC1D3A700AF069C /* Gutenberg_ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gutenberg_ReaderTests.swift; sourceTree = "<group>"; };
+		F24D64201EC1D3A700AF069C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24D64251EC1D3A700AF069C /* Gutenberg ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gutenberg ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24D64291EC1D3A700AF069C /* Gutenberg_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gutenberg_ReaderUITests.swift; sourceTree = "<group>"; };
+		F24D642B1EC1D3A700AF069C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F24D64381EC493B800AF069C /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		F24D643B1EC493DA00AF069C /* BaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseManager.swift; sourceTree = "<group>"; };
+		F24D643E1EC493F200AF069C /* LibraryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryManager.swift; sourceTree = "<group>"; };
+		FBBDE4740E578CF3A183165E /* Pods_Gutenberg_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gutenberg_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F24D64011EC1D3A700AF069C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C910BDDF9736E01B01830E7 /* Pods_Gutenberg_Reader.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24D64171EC1D3A700AF069C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717767D5C7C2CED8B4E48188 /* Pods_Gutenberg_ReaderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24D64221EC1D3A700AF069C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D46F898D21EA9F52648B5E6 /* Pods_Gutenberg_ReaderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		813E94B0C991FD78D7D40CEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A7459A1D39371168C966C4D /* Pods-Gutenberg Reader.debug.xcconfig */,
+				C657BCF6A04F5CE5D70BBF77 /* Pods-Gutenberg Reader.release.xcconfig */,
+				1DBFA39323644C9452CEF575 /* Pods-Gutenberg ReaderTests.debug.xcconfig */,
+				E2DAAFF55F0CE35C458484D8 /* Pods-Gutenberg ReaderTests.release.xcconfig */,
+				621B65A9E62E248E1E80F920 /* Pods-Gutenberg ReaderUITests.debug.xcconfig */,
+				43B28B196ACAF1FD55112385 /* Pods-Gutenberg ReaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFDFCF9645D75AAB7BF863CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBBDE4740E578CF3A183165E /* Pods_Gutenberg_Reader.framework */,
+				1295D8DB353661D7680B10FD /* Pods_Gutenberg_ReaderTests.framework */,
+				46D84F324F6E9C46318ADA1D /* Pods_Gutenberg_ReaderUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F24D63FB1EC1D3A700AF069C = {
+			isa = PBXGroup;
+			children = (
+				F24D64061EC1D3A700AF069C /* Gutenberg Reader */,
+				F24D641D1EC1D3A700AF069C /* Gutenberg ReaderTests */,
+				F24D64281EC1D3A700AF069C /* Gutenberg ReaderUITests */,
+				F24D64051EC1D3A700AF069C /* Products */,
+				813E94B0C991FD78D7D40CEB /* Pods */,
+				BFDFCF9645D75AAB7BF863CF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F24D64051EC1D3A700AF069C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F24D64041EC1D3A700AF069C /* Gutenberg Reader.app */,
+				F24D641A1EC1D3A700AF069C /* Gutenberg ReaderTests.xctest */,
+				F24D64251EC1D3A700AF069C /* Gutenberg ReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F24D64061EC1D3A700AF069C /* Gutenberg Reader */ = {
+			isa = PBXGroup;
+			children = (
+				F24D64371EC4905900AF069C /* Lib */,
+				F24D64071EC1D3A700AF069C /* AppDelegate.swift */,
+				F24D64091EC1D3A700AF069C /* DiscoverViewController.swift */,
+				F24D640B1EC1D3A700AF069C /* LibraryViewController.swift */,
+				F24D640D1EC1D3A700AF069C /* Main.storyboard */,
+				F24D64101EC1D3A700AF069C /* Assets.xcassets */,
+				F24D64121EC1D3A700AF069C /* LaunchScreen.storyboard */,
+				F24D64151EC1D3A700AF069C /* Info.plist */,
+			);
+			path = "Gutenberg Reader";
+			sourceTree = "<group>";
+		};
+		F24D641D1EC1D3A700AF069C /* Gutenberg ReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F24D641E1EC1D3A700AF069C /* Gutenberg_ReaderTests.swift */,
+				F24D64201EC1D3A700AF069C /* Info.plist */,
+			);
+			path = "Gutenberg ReaderTests";
+			sourceTree = "<group>";
+		};
+		F24D64281EC1D3A700AF069C /* Gutenberg ReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F24D64291EC1D3A700AF069C /* Gutenberg_ReaderUITests.swift */,
+				F24D642B1EC1D3A700AF069C /* Info.plist */,
+			);
+			path = "Gutenberg ReaderUITests";
+			sourceTree = "<group>";
+		};
+		F24D64371EC4905900AF069C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				F24D64381EC493B800AF069C /* DownloadManager.swift */,
+				F24D643B1EC493DA00AF069C /* BaseManager.swift */,
+				F24D643E1EC493F200AF069C /* LibraryManager.swift */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F24D64031EC1D3A700AF069C /* Gutenberg Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24D642E1EC1D3A700AF069C /* Build configuration list for PBXNativeTarget "Gutenberg Reader" */;
+			buildPhases = (
+				4E6A42C27E6A80610EEF3988 /* [CP] Check Pods Manifest.lock */,
+				F24D64001EC1D3A700AF069C /* Sources */,
+				F24D64011EC1D3A700AF069C /* Frameworks */,
+				F24D64021EC1D3A700AF069C /* Resources */,
+				D55179810D003A8145A4A77A /* [CP] Embed Pods Frameworks */,
+				039415EF6735F75AF43B14BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gutenberg Reader";
+			productName = "Gutenberg Reader";
+			productReference = F24D64041EC1D3A700AF069C /* Gutenberg Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F24D64191EC1D3A700AF069C /* Gutenberg ReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24D64311EC1D3A700AF069C /* Build configuration list for PBXNativeTarget "Gutenberg ReaderTests" */;
+			buildPhases = (
+				2670E2E60F1A78D006152965 /* [CP] Check Pods Manifest.lock */,
+				F24D64161EC1D3A700AF069C /* Sources */,
+				F24D64171EC1D3A700AF069C /* Frameworks */,
+				F24D64181EC1D3A700AF069C /* Resources */,
+				09C25471DA81A7A05468DD20 /* [CP] Embed Pods Frameworks */,
+				78327846EA3DCBD033F88D04 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24D641C1EC1D3A700AF069C /* PBXTargetDependency */,
+			);
+			name = "Gutenberg ReaderTests";
+			productName = "Gutenberg ReaderTests";
+			productReference = F24D641A1EC1D3A700AF069C /* Gutenberg ReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F24D64241EC1D3A700AF069C /* Gutenberg ReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24D64341EC1D3A700AF069C /* Build configuration list for PBXNativeTarget "Gutenberg ReaderUITests" */;
+			buildPhases = (
+				6B42836C0562B6141F85FB37 /* [CP] Check Pods Manifest.lock */,
+				F24D64211EC1D3A700AF069C /* Sources */,
+				F24D64221EC1D3A700AF069C /* Frameworks */,
+				F24D64231EC1D3A700AF069C /* Resources */,
+				158B570F2C119F3C55F4A7A1 /* [CP] Embed Pods Frameworks */,
+				1F45396CA1286803663578DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24D64271EC1D3A700AF069C /* PBXTargetDependency */,
+			);
+			name = "Gutenberg ReaderUITests";
+			productName = "Gutenberg ReaderUITests";
+			productReference = F24D64251EC1D3A700AF069C /* Gutenberg ReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F24D63FC1EC1D3A700AF069C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yin Jun";
+				TargetAttributes = {
+					F24D64031EC1D3A700AF069C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M33ZK75A9Z;
+						ProvisioningStyle = Automatic;
+					};
+					F24D64191EC1D3A700AF069C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M33ZK75A9Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F24D64031EC1D3A700AF069C;
+					};
+					F24D64241EC1D3A700AF069C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M33ZK75A9Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F24D64031EC1D3A700AF069C;
+					};
+				};
+			};
+			buildConfigurationList = F24D63FF1EC1D3A700AF069C /* Build configuration list for PBXProject "Gutenberg Reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F24D63FB1EC1D3A700AF069C;
+			productRefGroup = F24D64051EC1D3A700AF069C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24D64031EC1D3A700AF069C /* Gutenberg Reader */,
+				F24D64191EC1D3A700AF069C /* Gutenberg ReaderTests */,
+				F24D64241EC1D3A700AF069C /* Gutenberg ReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F24D64021EC1D3A700AF069C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24D64141EC1D3A700AF069C /* LaunchScreen.storyboard in Resources */,
+				F24D64111EC1D3A700AF069C /* Assets.xcassets in Resources */,
+				F24D640F1EC1D3A700AF069C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24D64181EC1D3A700AF069C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24D64231EC1D3A700AF069C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		039415EF6735F75AF43B14BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gutenberg Reader/Pods-Gutenberg Reader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09C25471DA81A7A05468DD20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gutenberg ReaderTests/Pods-Gutenberg ReaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		158B570F2C119F3C55F4A7A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gutenberg ReaderUITests/Pods-Gutenberg ReaderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F45396CA1286803663578DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gutenberg ReaderUITests/Pods-Gutenberg ReaderUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2670E2E60F1A78D006152965 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E6A42C27E6A80610EEF3988 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6B42836C0562B6141F85FB37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78327846EA3DCBD033F88D04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gutenberg ReaderTests/Pods-Gutenberg ReaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D55179810D003A8145A4A77A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gutenberg Reader/Pods-Gutenberg Reader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F24D64001EC1D3A700AF069C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24D643F1EC493F200AF069C /* LibraryManager.swift in Sources */,
+				F24D643C1EC493DA00AF069C /* BaseManager.swift in Sources */,
+				F24D640C1EC1D3A700AF069C /* LibraryViewController.swift in Sources */,
+				F24D64081EC1D3A700AF069C /* AppDelegate.swift in Sources */,
+				F24D640A1EC1D3A700AF069C /* DiscoverViewController.swift in Sources */,
+				F24D64391EC493B800AF069C /* DownloadManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24D64161EC1D3A700AF069C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24D643D1EC493DA00AF069C /* BaseManager.swift in Sources */,
+				F24D641F1EC1D3A700AF069C /* Gutenberg_ReaderTests.swift in Sources */,
+				F24D64401EC493F200AF069C /* LibraryManager.swift in Sources */,
+				F24D643A1EC493B800AF069C /* DownloadManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24D64211EC1D3A700AF069C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F24D642A1EC1D3A700AF069C /* Gutenberg_ReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F24D641C1EC1D3A700AF069C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24D64031EC1D3A700AF069C /* Gutenberg Reader */;
+			targetProxy = F24D641B1EC1D3A700AF069C /* PBXContainerItemProxy */;
+		};
+		F24D64271EC1D3A700AF069C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24D64031EC1D3A700AF069C /* Gutenberg Reader */;
+			targetProxy = F24D64261EC1D3A700AF069C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F24D640D1EC1D3A700AF069C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24D640E1EC1D3A700AF069C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F24D64121EC1D3A700AF069C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F24D64131EC1D3A700AF069C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F24D642C1EC1D3A700AF069C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F24D642D1EC1D3A700AF069C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F24D642F1EC1D3A700AF069C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7459A1D39371168C966C4D /* Pods-Gutenberg Reader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M33ZK75A9Z;
+				INFOPLIST_FILE = "Gutenberg Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.shootsoft.swift.gutenberg.Gutenberg-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F24D64301EC1D3A700AF069C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C657BCF6A04F5CE5D70BBF77 /* Pods-Gutenberg Reader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M33ZK75A9Z;
+				INFOPLIST_FILE = "Gutenberg Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.shootsoft.swift.gutenberg.Gutenberg-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F24D64321EC1D3A700AF069C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DBFA39323644C9452CEF575 /* Pods-Gutenberg ReaderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M33ZK75A9Z;
+				INFOPLIST_FILE = "Gutenberg ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.shootsoft.swift.gutenberg.Gutenberg-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gutenberg Reader.app/Gutenberg Reader";
+			};
+			name = Debug;
+		};
+		F24D64331EC1D3A700AF069C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2DAAFF55F0CE35C458484D8 /* Pods-Gutenberg ReaderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M33ZK75A9Z;
+				INFOPLIST_FILE = "Gutenberg ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.shootsoft.swift.gutenberg.Gutenberg-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gutenberg Reader.app/Gutenberg Reader";
+			};
+			name = Release;
+		};
+		F24D64351EC1D3A700AF069C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 621B65A9E62E248E1E80F920 /* Pods-Gutenberg ReaderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M33ZK75A9Z;
+				INFOPLIST_FILE = "Gutenberg ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.shootsoft.swift.gutenberg.Gutenberg-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Gutenberg Reader";
+			};
+			name = Debug;
+		};
+		F24D64361EC1D3A700AF069C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B28B196ACAF1FD55112385 /* Pods-Gutenberg ReaderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = M33ZK75A9Z;
+				INFOPLIST_FILE = "Gutenberg ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.shootsoft.swift.gutenberg.Gutenberg-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Gutenberg Reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F24D63FF1EC1D3A700AF069C /* Build configuration list for PBXProject "Gutenberg Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24D642C1EC1D3A700AF069C /* Debug */,
+				F24D642D1EC1D3A700AF069C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24D642E1EC1D3A700AF069C /* Build configuration list for PBXNativeTarget "Gutenberg Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24D642F1EC1D3A700AF069C /* Debug */,
+				F24D64301EC1D3A700AF069C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24D64311EC1D3A700AF069C /* Build configuration list for PBXNativeTarget "Gutenberg ReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24D64321EC1D3A700AF069C /* Debug */,
+				F24D64331EC1D3A700AF069C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24D64341EC1D3A700AF069C /* Build configuration list for PBXNativeTarget "Gutenberg ReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24D64351EC1D3A700AF069C /* Debug */,
+				F24D64361EC1D3A700AF069C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F24D63FC1EC1D3A700AF069C /* Project object */;
+}
